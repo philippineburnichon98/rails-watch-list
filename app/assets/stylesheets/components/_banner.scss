@@ -2,18 +2,20 @@
   background-size: cover;
   background-position: center;
   padding: 100px 0;
+  width: 1440px;
+  height : 700px;
 }
 
 .banner h1 {
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  font-size: 62px;
   font-weight: bold;
 }
 
 .banner p {
-  font-size: 20px;
+  font-size: 40px;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -26,6 +28,7 @@
   border-radius: 4px;
   background: $pink-custom;
   transition: background 0.3s ease;
+
 }
 
 .btn-flat:hover {
